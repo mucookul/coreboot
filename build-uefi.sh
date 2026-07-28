@@ -89,7 +89,7 @@ if [ ${#build_targets[@]} -eq 0 ]; then
 fi
 
 # get git rev
-rev=$(git describe --tags --dirty)
+rev="MrChromebox-2606.1-mucookul"
 
 for device in "${build_targets[@]}"; do
 	if [ "$debug_mode" = true ]; then
